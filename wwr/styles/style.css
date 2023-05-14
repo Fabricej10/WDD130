@@ -1,5 +1,5 @@
 #content{
-    max-width: 1025px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ main section{
 #background {
     height: 725px;
 }
+
 body {
     background-color: #fcfbfb; 
 }
