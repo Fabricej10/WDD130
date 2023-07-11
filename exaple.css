@@ -14,7 +14,13 @@ body, html {
 .images{
     width: 50%;
     height: 100%;
+}
 
+.heart{
+    display: grid;
+  width: 300px;
+  height: 150px;
+  grid-row: 100%;
 }
 .hero-text {
   text-align: center;
