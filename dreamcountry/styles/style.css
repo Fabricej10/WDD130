@@ -25,7 +25,7 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #0e0402;
 }
 footer{
     background-color: #e61010;
@@ -38,7 +38,7 @@ footer{
 }
 footer a:hover{
 
-    color: #513d2f;
+    color: #05166b;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -85,7 +85,8 @@ nav {
     margin: 0 auto;
 }
 .msg1, .msg2 {
-    background-color: #d9c2a3;
+    color: #fcfbfb;
+    background-color: #05166b;
     overflow: hidden;
     height: auto; 
     height: 250px;
@@ -171,7 +172,8 @@ nav {
 }
 
 .firstfood-msg, .secondfood-msg , .thirdfood-msg,.firststory-msg ,.secondstory-msg ,.thirdstory-msg {
-    background-color: #d9c2a3;
+    color: #fcfbfb;
+    background-color: #05166b;
     overflow: hidden;
     height: auto; 
     height: 250px;
