@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>private</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<section class="header"> 
+    <div class="flex">
+     <div id="menu-btn" class="fas fa-bars"></div>
+       </div>
+       <nav class="navbar">
+        <a href="index.html">Page d'accueil</a>
+        <a href="#reservation">Réservation</a>
+        <a href="#box-container">Contactez-nous</a>
+       
+     </nav>
+   <div class="flex">
+  
+      <a id="logo_link" href="index.html">
+         <img class="logo" src="images/logo.png" alt="R.N.D.P.S.G"></a>
+         <a class="logo">Residence Notre Dame du Perpetuel Secours Guesthouse</a>
+   </div>
+</section>
+
+<section class="reservation" id="reservation">
+    <form action="" method="post">
+       <h3>faire une réservation</h3>
+       <div class="flex">
+          <div class="box">
+             <p>Nom complet <span>*</span></p>
+             <input type="name" id="name" name="Full name" class="input" required>
+          </div>
+          <div class="box">
+            <p>Mail <span>*</span></p>
+            <input type="email" id="email" name="email" class="input" required>
+         </div>
+         <div class="box">
+            <p>Votre numéro de téléphone <span>*</span></p>
+            <input type="tel" id="phone" name="phone" class="input" required >
+         </div>
+         <div class="box">
+            <p>Votre référence <span>*</span></p>
+            <input type="refname" id="refname" name="Full Name" class="input" required>
+         </div>
+          <div class="box">
+            <p>Heure d'arrivée <span>*</span></p>
+            <input type="date" id="check_in" name="check_in" class="input" required>
+         </div>
+          <div class="box">
+             <p>Heure de départ <span>*</span></p>
+             <input type="date" id="check_out" name="check_out" class="input" required>
+          </div>
+          <div class="box">
+             <p>Adulte <span>*</span></p>
+             <select name="adults" id="adults" class="input" required>
+                <option value="1">1 adulte</option>
+                <option value="2">2 adultes</option>
+                <option value="3">3 adultes</option>
+                <option value="4">4 adultes</option>
+                <option value="5">5 adultes</option>
+                <option value="6">6 adultes</option>
+             </select>
+          </div>
+          <div class="box">
+             <p>Enfant <span>*</span></p>
+             <select name="childs" id="childs" class="input" required>
+                <option value="-">0 enfant</option>
+                <option value="1">1 enfant</option>
+                <option value="2">2 enfants</option>
+                <option value="3">3 enfants</option>
+                <option value="4">4 enfants</option>
+                <option value="5">5 enfants</option>
+                <option value="6">6 enfants</option>
+             </select>
+          </div>
+          <div class="box">
+             <p>Chambre <span>*</span></p>
+             <select name="rooms" id="rooms" class="input" required>
+                <option value="1">1 chambre</option>
+                <option value="2">2 chambres</option>
+                <option value="3">3 chambres</option>
+                <option value="4">4 chambres</option>
+                <option value="5">5 chambres</option>
+                <option value="6">6 chambres</option>
+                <option value="7">7 chambres</option>
+                <option value="8">8 chambres</option>
+             </select>
+          </div>
+       </div>
+       <input type="submit" value="Soumettre le formulaire" name="check" class="btn">
+    </form>
+ </section>
+
+<section class="footer">
+   <div class="box-container" id="box-container">
+      <div class="box">
+         <a href="tel:+50943203787"><i class="fas fa-phone"></i> 50943203787</a>
+         <a href="tel:+50947110536"><i class="fas fa-phone"></i> 50947110536</a>
+         <a href="tel:+50934318476"><i class="fas fa-phone"></i> 50934318476</a>  
+      </div>
+      <div class="box">
+        <a href="mailto:residenceperpetuelsecours@gmail.com"><i class="fas fa-envelope"></i> residenceperpetuelsecours@gmail.com</a>
+         <a href="https://maps.app.goo.gl/Utqf5g9SV1o5HUL89"><i class="fas fa-map-marker-alt"></i> 22, Delmas 75, Fragneau-Ville</a>
+         <a href="https://web.facebook.com/residenceperpetuelsecours">facebook <i class="fab fa-facebook-f"></i></a>
+      </div>
+   </div>
+</section>
+
+<form onsubmit="sendEmail(); reset(); return false;" ></form>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="script1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
