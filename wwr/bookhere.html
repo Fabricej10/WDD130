@@ -8,11 +8,12 @@
    <title>private</title>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-   <link rel="stylesheet" href="styles/styles.css">
+   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 <section class="header"> 
+   <div class="dass">
     <div class="flex">
      <div id="menu-btn" class="fas fa-bars"></div>
        </div>
@@ -22,12 +23,14 @@
         <a href="#box-container">Contactez-nous</a>
        
      </nav>
-   <div class="flex">
-  
-      <a id="logo_link" href="index.html">
-         <img class="logo" src="images/logo.png" alt="R.N.D.P.S.G"></a>
-         <a class="logo">Residence Notre Dame du Perpetuel Secours Guesthouse</a>
-   </div>
+     <a class="logo-container" id="logo_link" href="index.html">
+      <img src="images/logo.png" alt="Your Logo">
+     
+     </a>
+     <a class="logo-container">
+      <h1>Residence Notre Dame du Perpetuel Secours Guesthouse</h1>
+     </a>
+    </div>
 </section>
 
 <section class="reservation" id="reservation">
@@ -116,7 +119,7 @@
 
 <form onsubmit="sendEmail(); reset(); return false;" ></form>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="script1.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
