@@ -7,9 +7,32 @@
    --border:.1rem solid rgba(220, 198, 156, .3);
 }
 
-.logo {
- 
+.logo-container {
+   text-align: center;
+}
+#menu-btn{
+   color: var(--main-color);
+}
+.dass{
+   background-color: var(--sub-color);
+}
+
+.logo-container img {
+   display: block;
+   margin: 0 auto;
    border-radius: 50%;
+   width: 20%;
+}
+
+.logo-container h1 {
+   margin: 10px 0;
+   color: var(--main-color);
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+   border-radius: .5rem;
+   padding: 1.2rem;
+   text-align: center;
+   text-transform: capitalize;
 }
 
 
@@ -289,7 +312,6 @@ section{
    flex-wrap: wrap;
    gap: 1.5rem;
 }
-
 .reservation form h3{
    background-color: var(--sub-color);
    color: var(--main-color);
