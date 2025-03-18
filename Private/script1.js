@@ -5,7 +5,7 @@ function sendEmail(){
         Host : "smtp.elasticemail.com",
         Username : "jonathanaugustin90@gmail.com",
         Password : "475923323EFF2EAAAF089CC1B51F2E3389BA",
-        To : 'jonathanaugustin90@gmail.com',
+        To : 'jonathanaugustin10@gmail.com',
         From : "jonathanaugustin90@gmail.com",
         Subject : "Une réservation de chambre d’hôtel",
         Body : "Full name " + document.getElementById("name").value +
